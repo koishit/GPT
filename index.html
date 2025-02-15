@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>特别的你</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="always_online.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="container">
+        <h1>嘿，特别的你</h1>
+        <p>这个网站只属于你，希望你喜欢。</p>
+
+        <button id="surpriseBtn">点我看看</button>
+        <p id="message" class="hidden"></p>
+
+        <div class="chatbox">
+            <h2>和我聊聊天吧</h2>
+            <div id="chat-log"></div>
+            <input type="text" id="user-input" placeholder="输入消息...">
+            <button id="send-btn">发送</button>
+        </div>
+    </div>
+</body>
+</html>
